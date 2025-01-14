@@ -48,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const SizedBox(height: 20),
+            const SizedBox(height: 10),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20.0),
               child: Row(
@@ -71,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         onSelected: state.onSelected(models[i]),
                         label: Text(models[i]),
                         labelPadding: const EdgeInsets.symmetric(
-                          horizontal: 15,
+                          horizontal: 10,
                           vertical: 10,
                         ),
                       );

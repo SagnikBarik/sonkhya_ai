@@ -1,16 +1,31 @@
-# sonkhya_ai
+### README.md  
 
-A new Flutter project.
+# **Sonkhya&#46;AI: Handwritten Digit Recognition App**  
 
-## Getting Started
+Sonkhya&#46;AI is a Flutter-based application that uses a custom AI model to predict handwritten **bengali** digits. This app leverages a TensorFlow Lite (TFLite) model to process user-drawn digits on a whiteboard and predict the number with high accuracy.  
 
-This project is a starting point for a Flutter application.
+## **Features**  
+- Interactive drawing board to input handwritten digits.  
+- Real-time preprocessing of input images.  
+- AI-based prediction using a TFLite CNN model.  
+- Simple and clean UI for seamless interaction.  
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## **How It Works**  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Draw a digit (0-9) on the provided whiteboard canvas in **bengali**.  
+2. Tap the **Predict** button.  
+3. The app preprocesses the input by:  
+   - Converting the image to grayscale.  
+   - Resizing the image to 28x28 pixels.  
+   - Normalizing pixel values.  
+4. The processed image is passed to the TFLite model, which predicts the digit.  
+5. The prediction result is displayed on the screen.  
+ 
+
+## **Screenshots**  
+<p>
+<img src="screenshots/blackScreen.png" width="30%" style="padding-right:10px">
+<img src="screenshots/cnnPrediction.png" width="30%" style="padding-right:10px">
+<img src="screenshots/annPrediction.png" width="30%">
+</p>
