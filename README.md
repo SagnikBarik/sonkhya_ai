@@ -1,19 +1,15 @@
 ### README.md  
 
-# **Sonkhya&#46;AI: Handwritten Digit Recognition App**  
-
-Sonkhya&#46;AI is a Flutter-based application that uses a custom AI model to predict handwritten **bengali** digits. This app leverages a TensorFlow Lite (TFLite) model to process user-drawn digits on a whiteboard and predict the number with high accuracy.  
+# **Sonkhya.AI: Handwritten Digit Recognition App**  
+Sonkhya.AI is a Flutter-based application that utilizes a deep learning model to recognize handwritten **Bengali** digits with high accuracy. 
 
 ## **Features**  
-- Interactive drawing board to input handwritten digits.  
-- Real-time preprocessing of input images.  
-- AI-based prediction using a TFLite CNN model.  
+- AI-based prediction using a TFLite CNN model.
+- Interactive drawing board to input handwritten digits.
 - Simple and clean UI for seamless interaction.  
 
-
 ## **How It Works**  
-
-1. Draw a digit (0-9) on the provided whiteboard canvas in **bengali**.  
+1. Draw a digit (0-9) on the provided whiteboard canvas in **Bengali**.  
 2. Tap the **Predict** button.  
 3. The app preprocesses the input by:  
    - Converting the image to grayscale.  
@@ -21,7 +17,10 @@ Sonkhya&#46;AI is a Flutter-based application that uses a custom AI model to pre
    - Normalizing pixel values.  
 4. The processed image is passed to the TFLite model, which predicts the digit.  
 5. The prediction result is displayed on the screen.  
- 
+
+## **Machine Learning Model**  
+The deep learning model used for training the Bengali digit recognition system is available at:  
+[**Bengali-Digit-Recognition**](https://github.com/SagnikBarik/Bengali-Digit-Recognition)  
 
 ## **Screenshots**  
 <p>
